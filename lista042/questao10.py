@@ -8,4 +8,16 @@ Entre 3,0 e 6,9 = Prova Final
 A partir de 7,0 = Aprovado
 '''
 
-print("")
+print("Vamos ver sua média escolar?")
+no1 = float(input("Insira sua nota da primeira prova:"))
+no2 = float(input("Insira sua nota da segunda prova:"))
+
+media = (no1 + no2)/2
+
+if(media < 3.0):
+    print("Sinto muito, mas infelizmente você está reprovado. Tente se esforçar mais na próxima.")
+else:
+    if(media < 6.9):
+        print("Parece que você está por um triz, ficou de Prova Final. Se dedique nessa reta final.")
+    else:
+        print("Você está aprovado! Meus parabéns Guerreiro.")
