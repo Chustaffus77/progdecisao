@@ -9,6 +9,7 @@ A partir de 7,0 = Aprovado
 '''
 
 print("Vamos ver sua média escolar?")
+nome = input("Qual é o seu nome?")
 no1 = float(input("Insira sua nota da primeira prova:"))
 no2 = float(input("Insira sua nota da segunda prova:"))
 
@@ -21,6 +22,7 @@ else:
         print("Parece que você está por um triz, ficou de Prova Final. Se dedique nessa reta final.")
     else:
         print("Você está aprovado! Meus parabéns Guerreiro.")
+print(f"Foi um prazer {nome}.")
 
 
 print(f"Sua média equivale a {media}.")
