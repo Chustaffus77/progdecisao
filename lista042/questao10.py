@@ -21,3 +21,6 @@ else:
         print("Parece que você está por um triz, ficou de Prova Final. Se dedique nessa reta final.")
     else:
         print("Você está aprovado! Meus parabéns Guerreiro.")
+
+
+print(f"Sua média equivale a {media}.")
